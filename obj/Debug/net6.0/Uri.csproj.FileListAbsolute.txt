@@ -1,0 +1,15 @@
+/home/scarlettlynn/C#/Uri/bin/Debug/net6.0/Uri
+/home/scarlettlynn/C#/Uri/bin/Debug/net6.0/Uri.deps.json
+/home/scarlettlynn/C#/Uri/bin/Debug/net6.0/Uri.runtimeconfig.json
+/home/scarlettlynn/C#/Uri/bin/Debug/net6.0/Uri.dll
+/home/scarlettlynn/C#/Uri/bin/Debug/net6.0/Uri.pdb
+/home/scarlettlynn/C#/Uri/obj/Debug/net6.0/Uri.csproj.AssemblyReference.cache
+/home/scarlettlynn/C#/Uri/obj/Debug/net6.0/Uri.GeneratedMSBuildEditorConfig.editorconfig
+/home/scarlettlynn/C#/Uri/obj/Debug/net6.0/Uri.AssemblyInfoInputs.cache
+/home/scarlettlynn/C#/Uri/obj/Debug/net6.0/Uri.AssemblyInfo.cs
+/home/scarlettlynn/C#/Uri/obj/Debug/net6.0/Uri.csproj.CoreCompileInputs.cache
+/home/scarlettlynn/C#/Uri/obj/Debug/net6.0/Uri.dll
+/home/scarlettlynn/C#/Uri/obj/Debug/net6.0/refint/Uri.dll
+/home/scarlettlynn/C#/Uri/obj/Debug/net6.0/Uri.pdb
+/home/scarlettlynn/C#/Uri/obj/Debug/net6.0/Uri.genruntimeconfig.cache
+/home/scarlettlynn/C#/Uri/obj/Debug/net6.0/ref/Uri.dll
