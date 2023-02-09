@@ -4,14 +4,13 @@ class URI {
 
     static void Main(string[] args) {
 
-        int A, B, X;
+        double R, A, pi = 3.14159;
 
-        A = int.Parse(Console.ReadLine());
-        B = int.Parse(Console.ReadLine());
+        R = double.Parse(Console.ReadLine());
 
-        X = A + B;
+        A = pi * R * R;
 
-        Console.WriteLine("X = " + X);
+        Console.WriteLine("A=" + A.ToString("F4"));
 
 
 
