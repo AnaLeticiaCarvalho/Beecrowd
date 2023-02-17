@@ -4,13 +4,17 @@ class URI {
 
     static void Main(string[] args) {
 
-        int A, B, soma;
+        int N, horas, resto, minutos, segundos;
 
-        A = int.Parse(Console.ReadLine());
-        B = int.Parse(Console.ReadLine());
-        soma = A = B;
+        N = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Soma = " + soma);
+        horas = N / 3600;
+        resto = N % 3600;
+        minutos = resto / 60;
+        segundos = resto % 60;
+
+        Console.WriteLine(horas + ":" + minutos + ":" + segundos);
+
 
 
     }
