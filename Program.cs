@@ -4,17 +4,27 @@ class URI {
 
     static void Main(string[] args) {
 
-        int N, horas, resto, minutos, segundos;
+        int  horas;
 
-        N = int.Parse(Console.ReadLine());
+        Console.WriteLine("Que horas são? ");
+        horas = int.Parse(Console.ReadLine());
 
-        horas = N / 3600;
-        resto = N % 3600;
-        minutos = resto / 60;
-        segundos = resto % 60;
+        if (horas < 12)
+        {
+            Console.WriteLine("Bom dia!");
+        }
 
-        Console.WriteLine(horas + ":" + minutos + ":" + segundos);
+        else {
+            if (horas < 18)
+        {
+            Console.WriteLine("Boa tarde!");
+        }
 
+        else {
+                Console.WriteLine("Boa noite!");
+            }
+        }
+        
 
 
     }
