@@ -1,30 +1,34 @@
 ﻿using System; 
+using System.Globalization;
 
 class URI {
 
     static void Main(string[] args) {
 
-        int  horas;
+        double nota1, nota2, soma;
 
-        Console.WriteLine("Que horas são? ");
-        horas = int.Parse(Console.ReadLine());
+        Console.WriteLine("Digite a nota 1: ");
+        nota1 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-        if (horas < 12)
+         Console.WriteLine("Digite a nota 2: ");
+        nota2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+        soma = nota1 + nota1;
+
+        Console.WriteLine("NOTA FINAL = " + soma.ToString("F1", CultureInfo.InvariantCulture));
+
+        if (soma < 60)
         {
-            Console.WriteLine("Bom dia!");
+            Console.WriteLine("REPROVADO");
         }
 
-        else {
-            if (horas < 18)
+        else
         {
-            Console.WriteLine("Boa tarde!");
+            Console.WriteLine("APROVADO");
         }
 
-        else {
-                Console.WriteLine("Boa noite!");
-            }
-        }
-        
+        Console.ReadLine();
+
 
 
     }
